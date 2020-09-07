@@ -1,0 +1,110 @@
+.play {
+    position: relative;
+    background: #fff;
+}
+
+.play::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -.5rem;
+    width: 100%;
+    height: 500px;
+    background: url(../../images/afterStory.svg) no-repeat bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+.eggVars {
+    margin: 4rem 0;
+}
+
+.eggVars>div {
+    padding: 0 1rem;
+}
+
+.egg-var {
+    position: relative;
+    text-align: left;
+}
+
+.egg-var img {
+    max-width: 90%;
+}
+
+.egg-var::after {
+    content: attr(data-name);
+    color: black;
+    font-family: 'Comix Loud';
+    position: absolute;
+    top: -6%;
+    font-size: .65rem;
+    right: 52%;
+    transform: rotate(10deg);
+}
+
+.linked-game {
+    padding: 1rem;
+}
+
+.linked-game a {
+    position: relative;
+    margin-top: -40%;
+    display: block;
+}
+
+.photo-card {
+    padding: .5rem;
+    padding-bottom: 3rem;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 1px 1px 10px gray;
+    margin-bottom: 2rem;
+}
+
+.photo-card img {
+    max-width: 100%;
+}
+
+.photo-card .signature {
+    position: absolute;
+    bottom: .5rem;
+    font-family: 'Caveat';
+    right: .5rem;
+    font-size: 1.25rem;
+}
+
+.wth-photo {
+    max-width: 25%;
+    margin-right: -10%;
+    position: relative;
+    z-index: 100;
+}
+
+.wth-photo:last-child {
+    margin-left: -10%;
+    margin-right: 0;
+}
+
+.card-1 {
+    transform: rotate(15deg);
+    z-index: 105;
+}
+
+.card-2, .card-3 {
+    transform: rotate(-15deg);
+    z-index: 104
+}
+
+.storytxt p {
+    font-size: 1.2rem;
+    letter-spacing: .35px;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.story .container.gray {
+    max-width: 66%;
+}

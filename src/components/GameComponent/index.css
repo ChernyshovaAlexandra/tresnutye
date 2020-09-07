@@ -1,0 +1,146 @@
+.game_wrapper {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background: url(../../images/mainbg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.game_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.game_container .sliderNav {
+    margin-left: -90px;
+    margin-right: -90px;
+}
+
+.game_container img {
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.5));
+}
+
+.eggs-top .slick-current img {
+    filter: drop-shadow(0px -30px 20px rgba(255, 238, 0, 0.2));
+}
+
+.eggs-bottom .slick-current img {
+    filter: drop-shadow(0px 30px 20px rgba(255, 238, 0, 0.2));
+}
+
+.game_container .slick-current p {
+    display: none;
+}
+
+.game_container p {
+    text-shadow: -0 -10px 0 #000000, 0 -10px 0 #000000, -0 10px 0 #000000, 0 10px 0 #000000, -10px -0 0 #000000, 10px -0 0 #000000, -10px 0 0 #000000, 10px 0 0 #000000, -1px -10px 0 #000000, 1px -10px 0 #000000, -1px 10px 0 #000000, 1px 10px 0 #000000, -10px -1px 0 #000000, 10px -1px 0 #000000, -10px 1px 0 #000000, 10px 1px 0 #000000, -2px -10px 0 #000000, 2px -10px 0 #000000, -2px 10px 0 #000000, 2px 10px 0 #000000, -10px -2px 0 #000000, 10px -2px 0 #000000, -10px 2px 0 #000000, 10px 2px 0 #000000, -3px -10px 0 #000000, 3px -10px 0 #000000, -3px 10px 0 #000000, 3px 10px 0 #000000, -10px -3px 0 #000000, 10px -3px 0 #000000, -10px 3px 0 #000000, 10px 3px 0 #000000, -4px -10px 0 #000000, 4px -10px 0 #000000, -4px 10px 0 #000000, 4px 10px 0 #000000, -10px -4px 0 #000000, 10px -4px 0 #000000, -10px 4px 0 #000000, 10px 4px 0 #000000, -5px -10px 0 #000000, 5px -10px 0 #000000, -5px 10px 0 #000000, 5px 10px 0 #000000, -10px -5px 0 #000000, 10px -5px 0 #000000, -10px 5px 0 #000000, 10px 5px 0 #000000, -6px -10px 0 #000000, 6px -10px 0 #000000, -6px 10px 0 #000000, 6px 10px 0 #000000, -10px -6px 0 #000000, 10px -6px 0 #000000, -10px 6px 0 #000000, 10px 6px 0 #000000, -7px -10px 0 #000000, 7px -10px 0 #000000, -7px 10px 0 #000000, 7px 10px 0 #000000, -10px -7px 0 #000000, 10px -7px 0 #000000, -10px 7px 0 #000000, 10px 7px 0 #000000, -8px -10px 0 #000000, 8px -10px 0 #000000, -8px 10px 0 #000000, 8px 10px 0 #000000, -10px -8px 0 #000000, 10px -8px 0 #000000, -10px 8px 0 #000000, 10px 8px 0 #000000, -9px -10px 0 #000000, 9px -10px 0 #000000, -9px 10px 0 #000000, 9px 10px 0 #000000, -10px -9px 0 #000000, 10px -9px 0 #000000, -10px 9px 0 #000000, 10px 9px 0 #000000, -10px -10px 0 #000000, 10px -10px 0 #000000, -10px 10px 0 #000000, 10px 10px 0 #000000, -10px -10px 0 #000000, 10px -10px 0 #000000, -10px 10px 0 #000000, 10px 10px 0 #000000;
+}
+
+.game_wrapper h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+
+.game-name-div {
+    margin-top: -3rem;
+}
+
+.pedestal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    bottom: 4.8em;
+    z-index: 0;
+}
+
+.card_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.game_wrapper .slick-list {
+    padding: 0;
+}
+
+.game_wrapper .slick-list p {
+    font-size: 30px !important;
+}
+
+/* ВЕРХНИЙ РЯД */
+
+.eggs-top {
+    z-index: 3;
+}
+
+.eggs-top .sliderNav {
+    margin-bottom: 90px;
+}
+
+.eggs-top .slick-track {
+    top: 5px;
+    left: -70px;
+}
+
+.eggs-top .slick-slide {
+    top: 0;
+    transform: scale(.28);
+}
+
+.eggs-top .slick-current {
+    margin-top: 60px !important;
+    transform: scale(0.9);
+    margin: 0 70px;
+}
+
+.eggs-top .slick-list {
+    padding: 0;
+    height: 295px;
+    overflow-y: hidden;
+}
+
+/* НИЖНИЙ РЯД */
+
+.eggs-bottom {
+    top: -75px;
+}
+
+.eggs-bottom .sliderNav {
+    margin-bottom: 110px;
+}
+
+.eggs-bottom .slick-track {
+    top: 0px;
+    left: -70px;
+}
+
+.eggs-bottom .slick-list {
+    padding-top: 0 !important;
+    height: 270px;
+    overflow-y: hidden;
+    z-index: 2;
+    margin-top: -29px;
+}
+
+.eggs-bottom .slick-slide {
+    top: 0;
+    transform: scale(.28);
+}
+
+.eggs-bottom .slick-current {
+    margin-top: 80px !important;
+    transform: scale(0.9);
+    margin: 0 70px;
+}
+
+#egg_name {
+    margin-top: 50px;
+    font-size: 1.5rem;
+}

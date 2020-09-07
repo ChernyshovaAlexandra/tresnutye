@@ -1,0 +1,352 @@
+@media screen and (max-width: 1350px) {
+    .play .container {
+        max-width: 75%;
+    }
+    .linked-game.dashed img {
+        max-width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .linked-game small {
+        font-size: 67%;
+    }
+    .game_container .slick-track {
+        width: 6440px !important;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .play .container {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 1178px) {
+    .linked-game small {
+        font-size: 60%;
+        text-align: center;
+    }
+    .linked-game p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .game_container .sliderNav {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .photo-card .signature {
+        font-size: 1rem;
+    }
+    .egg-var img {
+        max-width: 100%;
+    }
+    .egg-var::after {
+        font-size: .5rem;
+        top: -10%;
+    }
+    .linked-game.dashed img {
+        max-width: 80%;
+    }
+    .play .col-md-3.egg-var {
+        max-width: 20%;
+        flex: 20%;
+    }
+    .eggVars {
+        justify-content: center;
+    }
+    .block-wth-ph.indent-3 {
+        margin-top: 6rem;
+        flex-wrap: nowrap;
+    }
+    .play .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .eggVars {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .section.play {
+        padding-bottom: 10rem;
+    }
+    .play .col-md-3.egg-var {
+        flex: 60%;
+        max-width: 60%;
+    }
+    .play .col-md-3.egg-var:nth-child(2) {
+        justify-self: flex-end;
+        margin-left: 50%;
+        margin-top: -10%;
+        margin-bottom: -10%;
+        max-width: 50%;
+    }
+    .play .col-md-3:not(.egg-var) {
+        flex: 100%;
+        max-width: 65%;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    .egg-var::after {
+        font-size: .8rem;
+        top: -10%;
+        right: 60%;
+    }
+    .linked-game a {
+        position: static;
+        margin-top: -10%;
+        display: block;
+    }
+    .linked-game small {
+        font-size: 80%;
+    }
+    .block-wth-ph.indent-3 {
+        flex-wrap: wrap;
+    }
+    .wth-photo:first-child {
+        order: 3;
+        flex: 60%;
+        max-width: 60%;
+        margin-left: 0;
+        flex-direction: row;
+        display: flex;
+        margin-top: -5%;
+    }
+    .wth-photo:last-child {
+        flex: 30%;
+        max-width: 30%;
+        order: 2;
+        margin-top: -5%;
+    }
+    .wth-eggs {
+        position: relative;
+        overflow: visible;
+    }
+    .wth-eggs .sponsor {
+        z-index: 10;
+        position: relative;
+        background: #ffffff;
+    }
+    .wth-eggs::before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        background: url(../../images/eggs-before.jpg) no-repeat center;
+        height: 30%;
+        width: 42%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        background-size: contain;
+    }
+    .photo-card {
+        max-width: 15rem;
+    }
+    .card-1 {
+        transform: rotate(18deg) translate(2rem, 6rem);
+    }
+    .card-3 {
+        transform: rotate(-20deg) translate(1rem, -2rem);
+    }
+    .wth-eggs .sponsor h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .eggVars {
+        transform: scale(.9);
+    }
+    .play .col-md-3.egg-var:nth-child(2) {
+        justify-self: flex-end;
+        margin-left: 47%;
+        margin-top: 4%;
+        margin-bottom: -5%;
+        max-width: 60%;
+    }
+    .photo-card {
+        width: 12rem;
+        height: 14rem;
+    }
+    .wth-photo:first-child {
+        max-width: 80%;
+    }
+    .card-1 {
+        transform: rotate(18deg) translate(4rem, 7rem);
+    }
+    .wth-eggs::before {
+        width: 56%;
+        height: 50%;
+        top: -10%;
+    }
+    .block-wth-ph.indent-3 {
+        margin-top: 4rem;
+    }
+    .photo-card:not(.card-3) {
+        height: auto;
+        padding-bottom: 2rem;
+        width: calc(50%);
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .play .col-md-3.egg-var:nth-child(2) {
+        margin-left: 50%;
+        margin-top: 7%;
+        margin-right: -10%;
+    }
+    .wth-photo:last-child {
+        transform: scale(.85);
+    }
+    .wth-photo:first-child {
+        max-width: 90%;
+        margin-left: -10%;
+        margin-top: -10%;
+    }
+    .wth-eggs::before {
+        width: 77%;
+        height: 50%;
+        top: -13%;
+    }
+    .play .col-md-3:not(.egg-var) {
+        max-width: 80%;
+    }
+    .wth-eggs .sponsor {
+        padding: 2.5rem 2rem;
+    }
+    .wth-eggs .sponsor h2 {
+        font-size: 1.2rem;
+    }
+    .photo-card:not(.card-3) {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .wth-photo {
+        transform: scale(.85) translateY(-1rem)
+    }
+    .wth-photo:last-child {
+        transform: scale(.75) translateY(-1rem)
+    }
+    .section.play {
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .eggs-top .sliderNav {
+        margin-bottom: 140px;
+    }
+    .eggs-bottom .sliderNav {
+        margin-bottom: 120px;
+    }
+    .eggs-top .slick-current {
+        transform: scale(.7);
+    }
+    .eggs-bottom .slick-current {
+        transform: scale(.7);
+    }
+    .eggs-bottom .slick-list {
+        margin-top: -67px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .wth-photo:last-child {
+        transform: scale(.9) translate(2rem, -2rem);
+        max-width: 45%;
+    }
+    .egg-var::after {
+        font-size: .7rem;
+        top: -15%;
+        right: 50%;
+    }
+    .photo-card {
+        height: calc(100% - 3rem);
+        width: 100%;
+    }
+    .wth-photo:first-child {
+        margin-left: -20%;
+    }
+    .card-1 {
+        transform: rotate(11deg) translate(2rem, 4rem);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .eggs-top .sliderNav {
+        margin-bottom: 170px;
+    }
+    .eggs-bottom .sliderNav {
+        margin-bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .eggVars {
+        transform: scale(.95);
+    }
+    .play .col-md-3:not(.egg-var) {
+        max-width: 95%;
+    }
+    .linked-game a {
+        margin-top: -25%;
+    }
+    .wth-eggs .sponsor {
+        padding: 2rem 1rem;
+    }
+    .wth-eggs::before {
+        top: 4%;
+        background-position: top;
+        height: 18%;
+    }
+    .photo-card.card-3 {
+        height: calc(100% - 3rem);
+        width: 100%;
+        margin-left: -25%;
+        transform: scale(1) rotate(-15deg) translate(1rem, -2rem)
+    }
+    .photo-card.card-2 {
+        margin-right: -10%;
+        margin-left: 10%;
+        transform: rotate(-10deg) translate(0rem, -2rem);
+    }
+    .photo-card .signature {
+        font-size: .8rem;
+    }
+    .photo-card.card-1 {
+        transform: rotate(10deg) translate(1rem, 1rem);
+    }
+    .section.play {
+        padding-bottom: 0;
+    }
+    .eggs-top .slick-current {
+        transform: scale(.6);
+    }
+    .eggs-bottom .slick-current {
+        transform: scale(.6);
+    }
+    .eggs-bottom .slick-list {
+        margin-top: -86px;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .eggs-top .slick-current {
+        transform: scale(.5);
+    }
+    .eggs-bottom .slick-current {
+        transform: scale(.5);
+    }
+    .eggs-bottom .slick-list {
+        margin-top: -105px;
+    }
+}

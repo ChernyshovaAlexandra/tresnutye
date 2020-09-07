@@ -1,0 +1,93 @@
+.stream {
+    background: #eeeff4;
+    position: relative;
+    margin-bottom: 8rem;
+}
+.stream h2{
+    line-height: 2.5;
+}
+.stream::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -499px;
+    width: 100%;
+    height: 500px;
+    background: url(../../images/afterStory.svg) no-repeat bottom;
+    background-size: contain;
+    transform: rotateX(180deg);
+    z-index: -1;
+}
+.stream .row.indent-2{
+    width: 100%;
+}
+.with-buble {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 56.25%;
+    max-width: 85%;
+}
+.with-buble iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.with-buble::after {
+    content: '';
+    position: absolute;
+    right: -10%;
+    top: -22%;
+    background: url(../../images/cloudTxt.png) no-repeat center;
+    background-size: contain;
+    width: 10rem;
+    height: 10rem;
+}
+@media screen and (max-width: 1380px){
+    .with-buble::after {
+        right: -15%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .with-buble::after {
+        right: -20%;
+        width: 8rem;
+        height: 8rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .with-buble::after {
+        right: -20%;
+        width: 7rem;
+        height: 7rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .with-buble::after {
+        right: -12%;
+        width: 7rem;
+        height: 7rem;
+        top: -25%;
+    }
+}
+@media screen and (max-width: 455px) {
+    .with-buble::after {
+        top: -35%;
+    }
+}
+@media screen and (max-width: 376px) {
+    .with-buble::after {
+        right: -13%;
+        width: 6rem;
+        height: 6rem;
+        top: -40%;
+    }
+}

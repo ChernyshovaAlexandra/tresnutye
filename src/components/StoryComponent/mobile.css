@@ -1,0 +1,23 @@
+@media screen and (max-width: 880px) {
+    .descktop {
+        display: none;
+    }
+    .mobile {
+        width: 95%;
+        margin: auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 650px) {
+    .storytxt {
+        margin-top: 1.5rem;
+    }
+    .story .container.gray {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 400px){
+    .story img{
+        width: 100%;
+    }
+}
