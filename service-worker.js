@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ChernyshovaAlexandra/tresnutye/precache-manifest.0980d1f5d75b45773c201460fbf9a239.js"
+  "/ChernyshovaAlexandra/tresnutye/precache-manifest.11ad6d6f9bd6ef1a843892dedddc7516.js"
 );
 
 workbox.clientsClaim();

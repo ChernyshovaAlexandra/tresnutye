@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/ChernyshovaAlexandra/tresnutye/static/js/2.1c658577.chunk.js"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/ChernyshovaAlexandra/tresnutye/static/media/slick.b7c9e1e4.woff"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/ChernyshovaAlexandra/tresnutye/static/media/slick.ced611da.eot"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/ChernyshovaAlexandra/tresnutye/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/ChernyshovaAlexandra/tresnutye/static/media/slick.ced611da.eot"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/ChernyshovaAlexandra/tresnutye/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "4eba294b5150c0fda17afa54d910e376",
@@ -456,12 +456,12 @@ self.__precacheManifest = [
     "url": "/ChernyshovaAlexandra/tresnutye/static/media/pin.d67e53a0.png"
   },
   {
-    "revision": "e69d5e2a2fcef541de94ee381a360d4b",
-    "url": "/ChernyshovaAlexandra/tresnutye/static/media/footer-bg.e69d5e2a.jpg"
-  },
-  {
     "revision": "2fc6f55b4ede8eed4d1fd4abb2783152",
     "url": "/ChernyshovaAlexandra/tresnutye/static/media/footer-bg-mobile.2fc6f55b.jpg"
+  },
+  {
+    "revision": "e69d5e2a2fcef541de94ee381a360d4b",
+    "url": "/ChernyshovaAlexandra/tresnutye/static/media/footer-bg.e69d5e2a.jpg"
   },
   {
     "revision": "e99fb176a9af25a243958d2cd58912a3",
@@ -480,6 +480,10 @@ self.__precacheManifest = [
     "url": "/ChernyshovaAlexandra/tresnutye/static/media/eggs-before.3d12cf3b.jpg"
   },
   {
+    "revision": "f61cda5db9129802a6d89e2f28a944ce",
+    "url": "/ChernyshovaAlexandra/tresnutye/static/media/16143.f61cda5d.otf"
+  },
+  {
     "revision": "dc9d872c3aa180d542d3626404aa3c2b",
     "url": "/ChernyshovaAlexandra/tresnutye/static/media/dixyLogoStart.dc9d872c.svg"
   },
@@ -492,16 +496,12 @@ self.__precacheManifest = [
     "url": "/ChernyshovaAlexandra/tresnutye/static/media/vikt.940f96d8.svg"
   },
   {
-    "revision": "6621ea851657f971e5d4bf6e4cccf6e1",
-    "url": "/ChernyshovaAlexandra/tresnutye/static/media/vikt-k.6621ea85.svg"
-  },
-  {
     "revision": "03cc30163c0b0a0fbe10712ec4ab4981",
     "url": "/ChernyshovaAlexandra/tresnutye/static/media/deshev.03cc3016.svg"
   },
   {
-    "revision": "f61cda5db9129802a6d89e2f28a944ce",
-    "url": "/ChernyshovaAlexandra/tresnutye/static/media/16143.f61cda5d.otf"
+    "revision": "6621ea851657f971e5d4bf6e4cccf6e1",
+    "url": "/ChernyshovaAlexandra/tresnutye/static/media/vikt-k.6621ea85.svg"
   },
   {
     "revision": "87cfc8770c6a2574c49be83951cd3f2b",
