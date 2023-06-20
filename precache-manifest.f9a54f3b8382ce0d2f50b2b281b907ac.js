@@ -20,10 +20,6 @@ self.__precacheManifest = [
     "url": "./static/js/2.1c658577.chunk.js"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "./static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "./static/media/slick.ced611da.eot"
   },
@@ -34,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "./static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "./static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "4eba294b5150c0fda17afa54d910e376",
@@ -444,24 +444,24 @@ self.__precacheManifest = [
     "url": "./static/media/vlad.c9abc87f.png"
   },
   {
-    "revision": "d664aa4149eb7c63767452e5480f4a82",
-    "url": "./static/media/map-after.d664aa41.png"
-  },
-  {
     "revision": "2aed43d7009cdc0068618df16ee383ea",
     "url": "./static/media/map.2aed43d7.jpg"
+  },
+  {
+    "revision": "d664aa4149eb7c63767452e5480f4a82",
+    "url": "./static/media/map-after.d664aa41.png"
   },
   {
     "revision": "d67e53a0e36135a2e189efc43383f707",
     "url": "./static/media/pin.d67e53a0.png"
   },
   {
-    "revision": "2fc6f55b4ede8eed4d1fd4abb2783152",
-    "url": "./static/media/footer-bg-mobile.2fc6f55b.jpg"
-  },
-  {
     "revision": "e69d5e2a2fcef541de94ee381a360d4b",
     "url": "./static/media/footer-bg.e69d5e2a.jpg"
+  },
+  {
+    "revision": "2fc6f55b4ede8eed4d1fd4abb2783152",
+    "url": "./static/media/footer-bg-mobile.2fc6f55b.jpg"
   },
   {
     "revision": "e99fb176a9af25a243958d2cd58912a3",
@@ -488,16 +488,16 @@ self.__precacheManifest = [
     "url": "./static/media/dixyLogoStart.dc9d872c.svg"
   },
   {
+    "revision": "cd4816916cb590d0b800b388f1d69e94",
+    "url": "./static/media/megam.cd481691.svg"
+  },
+  {
     "revision": "940f96d886c5e89d3361ac6dcac6f8b8",
     "url": "./static/media/vikt.940f96d8.svg"
   },
   {
     "revision": "6621ea851657f971e5d4bf6e4cccf6e1",
     "url": "./static/media/vikt-k.6621ea85.svg"
-  },
-  {
-    "revision": "cd4816916cb590d0b800b388f1d69e94",
-    "url": "./static/media/megam.cd481691.svg"
   },
   {
     "revision": "03cc30163c0b0a0fbe10712ec4ab4981",
@@ -508,7 +508,7 @@ self.__precacheManifest = [
     "url": "./static/media/eggStart.87cfc877.svg"
   },
   {
-    "revision": "07934fa0fce7789fc69dd0ee4ee7b1ea",
+    "revision": "d1357a1e61bcb44828deb42213b0ea8b",
     "url": "./index.html"
   }
 ];
